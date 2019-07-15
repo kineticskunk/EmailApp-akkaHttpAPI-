@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="EmailRoutesTest" time="2.297" errors="3" skipped="0">
+<testsuite tests="3" failures="0" name="EmailRoutesTest" time="2.223" errors="3" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="EmailRoutesTest" name="testHandlePOST" time="1.984">
+  <testcase classname="EmailRoutesTest" name="testHandlePOST" time="1.975">
     <error message="akka/testkit/package$TestDuration$" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: akka/testkit/package$TestDuration$
 	at akka.http.javadsl.testkit.RouteTest.awaitDuration(RouteTest.scala)
 	at akka.http.javadsl.testkit.JUnitRouteTestBase$$anon$1.&lt;init&gt;(JUnitRouteTest.scala:28)
@@ -112,7 +112,7 @@ Caused by: java.lang.ClassNotFoundException: akka.testkit.package$TestDuration$
 	... 40 more
 </error>
   </testcase>
-  <testcase classname="EmailRoutesTest" name="testRemove" time="0.203">
+  <testcase classname="EmailRoutesTest" name="testRemove" time="0.154">
     <error message="akka/testkit/package$TestDuration$" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: akka/testkit/package$TestDuration$
 	at akka.http.javadsl.testkit.RouteTest.awaitDuration(RouteTest.scala)
 	at akka.http.javadsl.testkit.JUnitRouteTestBase$$anon$1.&lt;init&gt;(JUnitRouteTest.scala:28)
@@ -155,10 +155,10 @@ Caused by: java.lang.ClassNotFoundException: akka.testkit.package$TestDuration$
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-out>[INFO] [07/15/2019 11:39:50.717] [main] [EmailRoutes(akka://helloAkkaHttpServer)] Deleted user[Kapi]: User Kapi deleted.
+    <system-out>[INFO] [07/15/2019 12:00:47.927] [main] [EmailRoutes(akka://helloAkkaHttpServer)] Deleted user[Kapi]: User Kapi deleted.
 </system-out>
   </testcase>
-  <testcase classname="EmailRoutesTest" name="testNoUsers" time="0.11">
+  <testcase classname="EmailRoutesTest" name="testNoUsers" time="0.094">
     <error message="akka/testkit/package$TestDuration$" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: akka/testkit/package$TestDuration$
 	at akka.http.javadsl.testkit.RouteTest.awaitDuration(RouteTest.scala)
 	at akka.http.javadsl.testkit.JUnitRouteTestBase$$anon$1.&lt;init&gt;(JUnitRouteTest.scala:28)

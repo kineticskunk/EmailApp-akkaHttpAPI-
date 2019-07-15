@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe08010a-db78-4f83-9895-7d38a7c90d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/EmailRoutesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EmailRoutesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EmailRoutesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EmailRoutesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EmailRoutesTest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -129,6 +130,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
   </component>
   <component name="RecentsManager">
